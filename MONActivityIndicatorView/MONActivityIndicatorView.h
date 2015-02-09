@@ -25,6 +25,8 @@
 /** The base animation duration of each circle*/
 @property (readwrite, nonatomic) CGFloat duration;
 
+@property (readonly, nonatomic) BOOL isAnimating;
+
 /** The assigned delegate */
 @property (weak, nonatomic) id<MONActivityIndicatorViewDelegate> delegate;
 
